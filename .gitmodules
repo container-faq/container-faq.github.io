@@ -1,0 +1,3 @@
+[submodule "themes/faq"]
+	path = themes/faq
+	url = https://github.com/aerohub/hugo-faq-theme.git
