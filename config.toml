@@ -1,0 +1,4 @@
+baseURL = "https://www.container-faq.org/"
+languageCode = "fr-fr"
+title = "A FAQ website for containers tech"
+theme = "faq"
