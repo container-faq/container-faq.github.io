@@ -1,4 +1,46 @@
+# Site settings
 baseURL = "https://www.container-faq.org/"
 languageCode = "fr-fr"
 title = "A FAQ website for containers tech"
 theme = "faq"
+
+# Do not build files for websites. Need them? Set to false
+disableRSS = false
+disableSitemap = false
+disable404 = false
+
+# Menu
+SectionPagesMenu = "main"
+
+	[[menu.main]]
+		name = "Basics"
+		weight = 10
+		url = "#basics"
+	[[menu.main]]
+		name = "Swarm"
+		weight = 30
+		url = "#swarm"
+	[[menu.main]]
+		name = "Kubernetes"
+		weight = 40
+		url = "#kubernetes"
+	[[menu.main]]
+		name = "Images"
+		weight = 20
+		url = "#images"
+	[[menu.main]]
+		name = "Security"
+		weight = 60
+		url = "#security"
+	[[menu.main]]
+		name = "Networking"
+		weight = 50
+		url = "#networking"
+
+[params]
+	
+	# Custom styling
+	# To customize the styling of this theme, uncomment and edit the following line to point 
+	# to your site's css in the assets/ directory. 
+
+	custom_css = ["css/blue.css"]
