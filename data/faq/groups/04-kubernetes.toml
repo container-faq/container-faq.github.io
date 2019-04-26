@@ -1,5 +1,5 @@
-id = "payments"
-name = "Payments"
+id = "kubernetes"
+name = "Kubernetes"
 
 [[items]]
 
