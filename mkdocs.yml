@@ -1,0 +1,51 @@
+site_name: Container-FAQ
+site_description: Everything around containers
+site_author: container-faq WG
+site_url: https://container-faq.org
+dev_addr: 0.0.0.0:8000
+
+repo_name: 'GitHub'
+repo_url: 'https://github.com/container-faq/container-faq.github.io'
+
+docs_dir: 'content'
+
+# https://squidfunk.github.io/mkdocs-material/
+theme:
+  name: 'material'
+  # custom_dir: 'theme'
+  # language: en
+  include_sidebar: true
+  # favicon: assets/img/traefik.icon.png
+  # logo: assets/img/traefik.logo.png
+  feature:
+    tabs: true
+  palette:
+    primary: '#0277bd'
+    accent: '#0277bd'
+  i18n:
+    prev: 'Previous'
+    next: 'Next'
+
+copyright: "Copyright &copy; 2019-2020 Container-FAQ"
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - About: new.md
+# https://squidfunk.github.io/mkdocs-material/extensions/admonition/
+# https://facelessuser.github.io/pymdown-extensions/
+markdown_extensions:
+  - attr_list
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.highlight
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist
+  - toc:
+      permalink: true
+
