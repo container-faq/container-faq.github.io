@@ -31,6 +31,7 @@ Here you'll find answer to most of he basics questions
         Experimental:     false
     ```
 
+### Docker Swarm
 
 !!! Question
     How to List swarm nodes ?  
